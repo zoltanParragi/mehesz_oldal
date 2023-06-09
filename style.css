@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6c757d;
+}
+
+.section-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section-bg {
+    background: #f8f9fa;
+}
+
+/* Navigation */
+nav.nav-custom {
+    background: transparent; /* #3f0b02 #313131;*/
+    padding: 20px 0;
+    transition: .5s all;
+}
+
+nav.nav-custom .navbar-brand{
+    font-size: 30px;
+    transition: .5s all;
+    color: #fff;
+}
+
+nav.nav-custom .nav-item {
+    margin-left: 15px;
+}
+
+nav.nav-custom .nav-link {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav.nav-custom.stickyadd {
+    background: #fff !important;
+    padding: 15px 0;
+    box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
+    transition: .5s all ease-in-out;
+}
+
+nav.stickyadd .navbar-brand {
+    color: #313131;
+    font-size: 33px;
+    transition: .5s all;
+}
+
+nav.stickyadd .navbar-nav .nav-link {
+    color: #313131 !important; 
+}
+
+nav.nav-custom .hamburger {
+    color: #fff;
+} 
+
+nav.stickyadd .hamburger {
+    color: #313131;
+}
+
+/* header */
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(./img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-box {
+    max-width: 700px;
+    color: #fff;
+}
+
+.content-box h4 {
+    font-size: 30px;
+}
+
+.content-box h1 {
+    font-size: 52px;
+    margin: 30px 0 30px 0;
+}
+
+.content-box a {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 5px 25px;
+    margin-top: 30px;
+}
+
+.content-box a:hover {
+    color: #000;
+    background: #fff;
+    transition: 0.5s all;
+}
+
+.content-box p {
+    color: #fff;
+}
+
+/* about */
+
+#about {
+    background: #fff8e5;
+}
+.about li a {
+    color: #e8a802;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    font-size: 30px;
+    transition: 0.5s all;
+    text-align: center;
+}
+
+.about li a:hover {
+    color: #fad372;
+}
+
+/* products */
+
+.products .card {
+    height: 450px;
+}
+
+.products .card:hover {
+    box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+}
+
+.card-header {
+    background: #e8a802 !important;
+    border: none !important;
+    position: relative;
+}
+
+.card-header h5{
+    margin-top: 5px;
+}
+
+.card-header h5 span{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    background: rgb(211, 16, 16);
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.card .product-text {
+    margin: 10px 0 0 0;
+}
+
+.card .product-price {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* testimonials */
+.testimonials{
+    background-image: linear-gradient(rgba(255, 248, 229, 0.7), rgba(255, 248, 229, 0.7) ), url(./img/bee-bg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.testimonial-header {
+    padding-bottom: 15px;
+}
+
+.carousel-icons i{
+    color: #fbe91c;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.carousel-person {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #fbe91c;
+    margin-top: 30px;
+}
+
+.carousel-person img {
+    width: 100%;
+}
+
+.carousel-content h5 {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.carousel-indicators{
+    bottom: -40px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 0px;
+    border-radius: 50%;
+    background: #fbe91c;
+}
+
+/* contact */
+.contact .contact-icon {
+    font-size: 50px;
+    text-align: center;
+}
+
+.contact-btn {
+    background: #e8a802;
+    color: white;
+}
+
+/* footer */
+footer {
+    height: 200px;
+    background-color: #333333;
+    color: #eee;
+}
+
+footer .footer-icons a{
+    font-size: 30px;
+    color: #848484;
+    padding: 10px;
+}
+
+footer .footer-icons a:hover{
+    color: #eee;
+    transition: .5s all;
+}
