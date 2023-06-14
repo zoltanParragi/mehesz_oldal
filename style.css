@@ -244,7 +244,7 @@ header {
 
 /* footer */
 footer {
-    height: 200px;
+    min-height: 180px;
     background-color: #333333;
     color: #eee;
 }
@@ -258,4 +258,56 @@ footer .footer-icons a{
 footer .footer-icons a:hover{
     color: #eee;
     transition: .5s all;
+}
+
+@media only screen and (max-width: 992px){
+    nav.nav-custom:not(.stickyadd) .navbar-collapse {
+        background: rgba(31, 7, 2, 0.8); 
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 505px) {
+    
+
+    header {
+        height: 600px;
+        padding: 8rem 2rem 2rem 2rem;
+    }
+    .header-content {
+        height: auto;
+    }
+
+    .content-box h1 {
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 504px) {
+    
+    nav.nav-custom:not(.stickyadd) .navbar-collapse {
+        background: rgba(31, 7, 2, 0.8); 
+    }
+
+    nav.stickyadd .navbar-brand {
+        font-size: 30px;
+    }
+
+    header {
+        height: 750px;
+        padding: 10rem 2rem 2rem 2rem;
+    }
+
+    .header-content {
+        height: auto;
+    }
+    
+    .content-box h1 {
+        height: 180px;
+    }
+
+    .card-header h5 span{
+        left: 5px;
+        top: 5px;
+        font-size: 1rem;
+    }
 }
